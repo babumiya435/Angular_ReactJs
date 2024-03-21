@@ -1,0 +1,33 @@
+********************************************************
+(why is the angular build with TypeScript)
+"Why was Angular built with TypeScript?"
+
+-
+Static Typing
+Enhanced Tooling
+ES6/ES7 Features
+Readability and Maintainability
+Strong Typing for Large-Scale Projects
+Community Adoption
+
+********************************************************
+(in first place what is the need of angular framework 
+and what are the other ways of creating SPA before angular)
+In the first place, what is the necessity of the Angular framework, 
+and what alternative methods existed for creating Single Page Applications (SPAs) 
+prior to the emergence of Angular?
+
+-
+The necessity of the Angular framework arises from the need to build robust,
+ maintainable, and scalable Single Page Applications (SPAs). 
+ Prior to the emergence of Angular, developers used various techniques and libraries 
+ to create SPAs, but they often faced challenges in terms of code organization, 
+ data binding, and component-based architecture. 
+ Some alternatives to Angular for building SPAs include:
+ Vanilla JavaScript
+ jQuery
+ Backbone.js
+ Ember.js
+ React
+
+
