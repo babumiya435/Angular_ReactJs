@@ -1,3 +1,6 @@
+why anguar is called a framework?
+
+
 ********************************************************
 (why is the angular build with TypeScript)
 "Why was Angular built with TypeScript?"
@@ -23,6 +26,7 @@ The necessity of the Angular framework arises from the need to build robust,
  Prior to the emergence of Angular, developers used various techniques and libraries 
  to create SPAs, but they often faced challenges in terms of code organization, 
  data binding, and component-based architecture. 
+ 
  Some alternatives to Angular for building SPAs include:
  Vanilla JavaScript
  jQuery

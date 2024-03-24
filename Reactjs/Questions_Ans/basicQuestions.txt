@@ -1,0 +1,10 @@
+********************************************************
+(in first place what is the need of Reactjs 
+and what are the other ways of creating SPA before Reactjs)
+In the first place, what is the necessity of the Angular, 
+and what alternative methods existed for creating Single Page Applications (SPAs) 
+prior to the emergence of Reactjs ?
+
+
+***********************************************************
+why reactjs is not called a framework ?
