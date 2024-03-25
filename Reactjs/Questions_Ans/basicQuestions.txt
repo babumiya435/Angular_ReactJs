@@ -5,6 +5,54 @@ In the first place, what is the necessity of the Angular,
 and what alternative methods existed for creating Single Page Applications (SPAs) 
 prior to the emergence of Reactjs ?
 
+ReactJS itself is primarily a library for building user interfaces, 
+and it doesn't come bundled with the extensive set of features that Angular provides out of the box.
+
 
 ***********************************************************
 why reactjs is not called a framework ?
+
+    - It won't come with the end to end inbuilt features like : router, webpack, babel, forms, 
+      dependency injection, AOT, HttpClient Module, browser module, testing framework,
+      angular-cli, angular runtime.  
+
+Built-in Dependency Injection: Angular provides a powerful built-in dependency injection system that allows for the injection of services, components, and other dependencies into classes or components. This facilitates modularity, testability, and code reusability.
+
+Reactive Forms: Angular offers Reactive Forms, a powerful form handling mechanism that allows for the creation of dynamic and complex forms with support for form validation, form groups, form arrays, custom form controls, and more.
+
+Template-driven Forms: Alongside Reactive Forms, Angular also provides Template-driven Forms, which allow for a simpler and more declarative way of handling forms directly in the component's template.
+
+HTTP Client: Angular comes with a built-in HttpClient module for making HTTP requests. It provides features like request and response interception, error handling, and support for request/response transformation.
+
+Animation Module: Angular includes a dedicated animation module that provides support for creating rich animations and transitions within Angular applications. It offers a variety of animations APIs and features for animating components, routes, and other elements.
+
+CLI (Command Line Interface): Angular CLI is a powerful command-line tool that provides a streamlined way to create, build, test, and deploy Angular applications. It offers generators for scaffolding components, services, modules, and more, along with built-in support for code scaffolding, testing, and optimization.
+
+Internationalization (i18n): Angular provides built-in support for internationalization (i18n), allowing developers to easily create multilingual applications with translations for different languages.
+
+Router Guards: Angular's router supports various types of guards such as Route Guards, CanActivate, CanDeactivate, Resolve Guards, and CanLoad guards, which allow developers to control navigation and access to routes based on certain conditions.
+
+NgModule System: Angular's module system provides a way to organize an application into cohesive blocks of functionality called NgModules. NgModules help in organizing code, managing dependencies, and defining application boundaries.
+
+Form Validation: Angular provides built-in support for form validation with features like template-driven and reactive forms validation, custom validators, asynchronous validation, and integration with Angular's error handling mechanisms.
+
+Angular Universal (Server-Side Rendering): Angular Universal allows for server-side rendering (SSR) of Angular applications, enabling better initial load performance, search engine optimization (SEO), and improved user experience, especially on low-powered devices and slower networks.
+
+Angular Material: Angular Material is a UI component library for Angular applications that provides a set of pre-designed and customizable UI components following Google's Material Design guidelines. It offers components like buttons, cards, dialogs, grids, and more, along with theming and accessibility features.
+
+Angular Compiler: Angular includes its own compiler that transforms Angular templates and components into efficient JavaScript code during the build process. This compiler enables various optimizations and allows Angular applications to be more efficiently executed by the browser.
+
+Zone.js Integration: Angular leverages Zone.js to manage asynchronous operations and change detection. Zone.js provides a way to intercept and track asynchronous tasks, such as HTTP requests, timers, and event listeners, helping Angular to trigger change detection appropriately.
+
+Angular Change Detection: Angular's change detection mechanism automatically detects changes to the application state and updates the UI accordingly. It uses a tree-shaking algorithm to optimize change detection performance and reduce unnecessary updates.
+
+Built-in Testing Utilities: Angular provides built-in utilities for testing Angular applications, including TestBed for configuring Angular testing modules, ComponentFixture for interacting with components in tests, and various testing APIs for writing unit tests, integration tests, and end-to-end tests.
+
+Angular DevTools: Angular offers official browser extensions and tools like Angular DevTools for Chrome and Firefox, which provide enhanced debugging and profiling capabilities specifically designed for Angular applications.
+
+Angular Schematics: Angular Schematics is a workflow tool built into the Angular CLI that allows for the generation, modification, and maintenance of Angular code scaffolding and project structure. It provides a way to automate common development tasks and enforce project conventions.
+
+Angular Pipes: Angular pipes are a feature that allows for data transformation and formatting directly within Angular templates. Pipes can be used to filter, sort, format dates, currency, and more, providing a convenient way to manipulate data displayed in the UI.
+
+Angular Directives: Angular directives are a powerful feature that allows developers to extend HTML with custom behavior and functionality. Angular provides built-in directives like ngIf, ngFor, ngSwitch, and allows for the creation of custom directives to encapsulate reusable UI components and behaviors.
+
