@@ -4,3 +4,19 @@
     - It won't come with the end to end inbuilt features like : router, webpack, babel, forms, 
       dependency injection, AOT, HttpClient Module, browser module, testing framework,
       angular-cli, angular runtime. 
+
+ReactJS is often referred to as a library rather than a framework, primarily because of its narrower scope of functionality compared to Angular. Here's why React is commonly labeled as a library:
+
+Focus on View Layer: React focuses primarily on the view layer of an application, providing a declarative approach to building UI components. It doesn't provide solutions for other aspects of application development, such as routing, form handling, or HTTP requests, which are typically handled by additional libraries or custom implementations.
+
+Component-Based Architecture: React promotes a component-based architecture, where UIs are built using reusable and composable components. While this is a key feature of both libraries and frameworks, React's emphasis on components without providing a complete application structure or set of tools for managing the entire application lifecycle contributes to its classification as a library.
+
+Minimal Opinions: React is designed to be lightweight and flexible, allowing developers to make choices about tooling, architecture, and state management based on their project requirements. Unlike Angular, which imposes more conventions and opinions on developers, React provides minimal constraints, giving developers more freedom and control over their application architecture.
+
+Lack of Built-in Features: React doesn't come with built-in features like routing, form handling, or dependency injection, which are commonly associated with full-fledged frameworks. Instead, React encourages the use of third-party libraries or custom solutions for these functionalities, allowing developers to choose the tools that best fit their needs.
+
+Community and Ecosystem: React's ecosystem is composed of a vast collection of libraries, tools, and utilities developed by the community, rather than being bundled as part of the core framework. While this contributes to React's flexibility and extensibility, it also reinforces its classification as a library rather than a framework.
+
+While React is often referred to as a library, it's important to note that the distinction between libraries and frameworks can sometimes be blurred, and the labels are not always strictly defined. React's classification as a library doesn't diminish its significance or capabilities; it remains a powerful tool for building modern web applications, offering a rich set of features and a vibrant ecosystem.
+
+
