@@ -1,0 +1,6 @@
+***********************************************************
+** why reactjs is not called a framework ? **
+
+    - It won't come with the end to end inbuilt features like : router, webpack, babel, forms, 
+      dependency injection, AOT, HttpClient Module, browser module, testing framework,
+      angular-cli, angular runtime. 
