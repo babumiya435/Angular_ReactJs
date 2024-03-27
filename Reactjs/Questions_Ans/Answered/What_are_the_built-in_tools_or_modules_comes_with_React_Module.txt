@@ -1,0 +1,22 @@
+** What are the built-in tools or modules comes with React Module? **
+
+There are no such buil-in tools available:
+
+
+React itself is primarily a UI library for building user interfaces in JavaScript, and it doesn't come bundled with many built-in tools or modules beyond its core functionality. However, React does have a few companion libraries and modules that are commonly used alongside it:
+
+ReactDOM: This module provides DOM-specific methods that can be used at the top level of your web application to render React components into the DOM.
+
+ReactNative: React Native is a framework for building mobile applications using React. It allows developers to write mobile applications using React syntax and components, targeting iOS, Android, and other platforms.
+
+React Router: React Router is a popular routing library for React applications. It enables declarative routing for single-page applications, allowing you to define different routes and their corresponding components.
+
+React Redux: Redux is a predictable state container for JavaScript applications. React Redux provides bindings for using Redux with React, allowing you to manage application state in a predictable way.
+
+React Testing Library: This library provides utilities for testing React components in a way that encourages good testing practices and accessibility testing. It's often used in combination with Jest for writing tests for React applications.
+
+Create React App: While not a module within React itself, Create React App is a command-line tool that sets up a new React project with a pre-configured build system, allowing developers to get started with React development quickly.
+
+Prop Types: Although not bundled with React anymore (it used to be in earlier versions), PropTypes is a separate package commonly used to declare the intended types of properties passed to React components, helping catch bugs and document component interfaces.
+
+These are some of the commonly used tools and modules that complement React and enhance the development experience when building React applications. However, it's worth noting that React's ecosystem is vast, and there are many other libraries and tools available for specific use cases and requirements.
