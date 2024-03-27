@@ -3,8 +3,10 @@ List of Basics To Advance Topics in Angular :
 (1) TypeScript fundamentals (since Angular is built with TypeScript)
 
 (2) Understanding Angular architecture and components
+Understanding_Angular_architecture_and_components
 
 (3) Setting up Angular environment using Angular CLI
+Setting_up_Angular_environment_using_Angular_CLI
 
 (4) Creating components, services, modules, and directives
 

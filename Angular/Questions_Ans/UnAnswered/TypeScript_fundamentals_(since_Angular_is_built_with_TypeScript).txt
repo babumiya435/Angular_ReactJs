@@ -1,0 +1,1 @@
+** TypeScript fundamentals (since Angular is built with TypeScript) **
