@@ -1,1 +1,1 @@
-** Implementing AOT Compilation in React.js **
+** Implementing AOT Compilation in Angular **
