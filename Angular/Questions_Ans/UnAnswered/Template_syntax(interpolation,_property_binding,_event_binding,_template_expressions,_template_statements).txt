@@ -1,0 +1,1 @@
+Template_syntax(interpolation,_property_binding,_event_binding,_template_expressions,_template_statements)
