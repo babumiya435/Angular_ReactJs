@@ -1,0 +1,1 @@
+** Is AOT compilation an inherent feature of Reactjs **

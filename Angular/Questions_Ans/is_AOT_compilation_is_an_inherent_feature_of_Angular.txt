@@ -1,0 +1,1 @@
+** is_AOT_compilation_is_an_inherent_feature_of_Angular **
