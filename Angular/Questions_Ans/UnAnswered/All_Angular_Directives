@@ -1,0 +1,3 @@
+** All angular directives **
+
+-   ngIf, ngFor, ngSwitch, ngStyle, ngClass, ng-container, ng-template, ng-content, ngTemplateRef,... etc.
