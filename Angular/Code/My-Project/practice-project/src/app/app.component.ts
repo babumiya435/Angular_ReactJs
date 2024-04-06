@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -8,6 +8,17 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'practice-project';
+export class AppComponent implements OnInit {
+  
+  title!: string;
+
+  constructor() {
+
+  }
+
+  ngOnInit(): void {
+    // this.title = "Basics Of Type Script";
+    console.log(this.title);
+  }
+
 }

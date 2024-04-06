@@ -23,7 +23,7 @@
         - external library .js files
         - angular syntactic constructs (components, directives, services, modules, decorators, template syntax (e.g., interpolation, property binding, event binding), structural directives (*ngIf, *ngFor), and other Angular-specific features.)
         - angular compiler .js code
-        - Tools used (Angular CLI, Webpack, webpack-dev-server, TypeScript Compiler (tsc), Angular Compiler, Browser Developer Tools)
+        - Tools required for JIT (Angular CLI, Webpack, webpack-dev-server, TypeScript Compiler (tsc), Angular Compiler, Browser Developer Tools)
 
 - AOT (Ahead Of Time) Compiation - ng build
     - build code to /dist folder path mensioned in the angular.json (Native .js .html .css code is built)
@@ -32,4 +32,4 @@
         - .html
         - .css
         - externam library code to .js
-        - Tools used (Angular Compiler (ngc), Angular CLI, Webpack or Angular CLI's Built-in Bundler, TypeScript Compiler (tsc), Browser Developer Tools)
+        - Tools required for AOT (Angular Compiler (ngc), Angular CLI, Webpack or Angular CLI's Built-in Bundler, TypeScript Compiler (tsc), Browser Developer Tools)
