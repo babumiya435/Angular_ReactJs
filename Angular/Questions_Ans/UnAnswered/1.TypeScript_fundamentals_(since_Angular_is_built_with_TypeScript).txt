@@ -1,1 +1,15 @@
 ** TypeScript fundamentals (since Angular is built with TypeScript) **
+
+- Typescript's primary uses cases are:
+    - appending types to js variables, function params, function returns.
+    - static typing to js - adding implicit types to js variables, function params, function returns.
+    - providing type checking in compile time.
+    - used in Angular development to create SPA.
+    - Angular is built with TypeScript.
+
+- To help catch errors at compile time.
+- By leveraging TypeScript's type system, Angular ensures better type safety and reduces the likelihood of runtime errors
+- code clarity
+- added intelligence to IDE's
+- Tooling support : VS code, Idea, webpack, babel
+- TypeScript's features, such as decorators, interfaces, and generics are used in Angular.
