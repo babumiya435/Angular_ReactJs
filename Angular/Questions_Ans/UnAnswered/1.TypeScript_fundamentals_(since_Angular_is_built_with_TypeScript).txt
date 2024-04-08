@@ -33,3 +33,43 @@
         - .css
         - externam library code to .js
         - Tools required for AOT (Angular Compiler (ngc), Angular CLI, Webpack or Angular CLI's Built-in Bundler, TypeScript Compiler (tsc), Browser Developer Tools)
+
+
+
+Typescript features in the context of Angular Application Development.
+
+1.Type Annotations & Type Inference (Typescript provide types at runtime to varibales with no implicit types):
+    - Implicit addition of types to the variables, function params, function returns
+    - Type Safety
+    - Code Documentation
+    - Improved Tooling (IDE can notify the type errors before start of compilation)
+    - Primitive Types:
+        - number: Numeric values (e.g., 1, 3.14).
+        - string: Textual values (e.g., 'hello', "world").
+        - boolean: Boolean values (true or false).
+        - null: The null value.
+        - undefined: The undefined value.
+    - Object Types:
+        - object: Any JavaScript object (not recommended for type checking).
+        - array: Array type (e.g., number[], string[]).
+        - tuple: Tuple type for fixed-length arrays with specific element types.
+        - enum: Enumerated type for a set of named constants.
+    - Function Types:
+        - function: Function type (e.g., (x: number, y: number) => number).
+    - Other Types:
+        - any: Any type, allows any value.
+        - void: Represents the absence of a value (usually used as return type for functions that don't return a value).
+
+2.Interfaces
+
+3.Classes
+
+4.Decorators
+
+5.Modules
+
+6.Generics
+
+7.Enums
+
+8.Type Assertions
