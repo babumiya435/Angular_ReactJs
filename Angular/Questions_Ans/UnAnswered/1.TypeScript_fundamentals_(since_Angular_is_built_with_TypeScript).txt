@@ -61,6 +61,9 @@ Typescript features in the context of Angular Application Development.
         - void: Represents the absence of a value (usually used as return type for functions that don't return a value).
 
 2.Interfaces
+    - Used to add custom types to object / api responses
+    - type is also used to create custom types but not have an ability to extend or append the types like interfaces.
+    - 
 
 3.Classes
 
