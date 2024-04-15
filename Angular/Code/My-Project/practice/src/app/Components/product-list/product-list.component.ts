@@ -2,7 +2,7 @@ import { CurrencyPipe } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Product } from '../../CustomTypes/producttypes';
+import { Product } from '../../CustomTypes/productTypes';
 
 @Component({
   selector: 'app-product-list',

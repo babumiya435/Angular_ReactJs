@@ -1,12 +1,13 @@
 
-export type Price = {
-  vaue: number;
-  currency: string;
+export interface Price {
+    value: number;
+    currency: string;
 }
-export type Product = {
+
+export interface Product {
     id: string;
     title: string;
     description: string;
     price: Price;
     image?: string;
-  };
+}
