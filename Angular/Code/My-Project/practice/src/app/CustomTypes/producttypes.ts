@@ -24,5 +24,3 @@ export type Product = {
   type ShippingId = string | number;
 
   // conditional types:
-
-  type 
