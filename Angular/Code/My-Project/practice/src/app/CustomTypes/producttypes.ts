@@ -5,7 +5,7 @@ export type Price = {
 }
 
 export type Product = {
-    id: string,
+    id: string | number, // union types - either string or number both are valid types for id
     title: string,
     description: string,
     price?: Price,
@@ -13,8 +13,16 @@ export type Product = {
   };
 
   //extend types
-  // Product & Price { --> cannot extend multiple types
+  // ( Product & Price { )--> cannot extend multiple types
   export type PurchasedProduct = Product & {
     orderId?: string,
     orderDate?: Date,
   }
+
+  // union types (either or types):
+
+  type ShippingId = string | number;
+
+  // conditional types:
+
+  type 
